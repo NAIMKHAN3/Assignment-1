@@ -164,3 +164,58 @@ body {
 #box-3 {
     background-color: rgb(253, 212, 197);
 }
+
+.get {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: rgb(110, 107, 107);
+}
+
+.get h1 {
+    font-size: 55px;
+    color: black;
+}
+
+.get p {
+    margin-top: -25px;
+}
+
+
+
+.email {
+    height: 200px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 221, 226);
+    border-radius: 5px;
+
+}
+
+.email .input-email {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(125, 114, 114);
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.email .submit {
+    background-color: rgb(255, 107, 81);
+    border: rgb(254, 104, 77);
+    padding: 12px 50px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    height: 40px;
+}
