@@ -107,3 +107,60 @@ body {
     width: 750px;
     outline: 0;
 }
+
+.donate-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 700px;
+    height: 220px;
+    background: none;
+}
+
+.donate-plan h2 {
+    font-size: 60px;
+    margin-top: -20px;
+    background: none;
+}
+
+.donate-plan p {
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(7, 6, 6);
+    background: none;
+}
+
+.main-section {
+    height: 350px;
+}
+
+.donate-option {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(110, 107, 107);
+}
+
+.our-plan {
+    height: 400;
+    width: 280px;
+    margin: 5px;
+    padding: 20px 30px;
+    line-height: 25px;
+}
+
+#box-1 {
+    background-color: rgb(221, 255, 244);
+}
+
+#box-2 {
+    background-color: rgb(250, 228, 228);
+}
+
+#box-3 {
+    background-color: rgb(253, 212, 197);
+}
